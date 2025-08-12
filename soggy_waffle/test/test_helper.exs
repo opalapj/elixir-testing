@@ -7,3 +7,4 @@
 # Visit http://www.pragmaticprogrammer.com/titles/lmelixir for more book information.
 # ---
 ExUnit.start()
+# IEx.break!(SoggyWaffle.WeatherAPI.ResponseParser, :parse_response, 1)
