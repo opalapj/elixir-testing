@@ -6,5 +6,5 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/lmelixir for more book information.
 # ---
-ExUnit.start()
-# IEx.break!(SoggyWaffle.WeatherAPI.ResponseParser, :parse_response, 1)
+ExUnit.start(trace: true, seed: 0)
+IEx.break!(SoggyWaffle.WeatherAPI.ResponseParser, :parse_response, 1)
