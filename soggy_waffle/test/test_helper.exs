@@ -7,4 +7,10 @@
 # Visit http://www.pragmaticprogrammer.com/titles/lmelixir for more book information.
 # ---
 ExUnit.start(trace: true, seed: 0)
+
+# if Enum.any?(
+#      Application.started_applications(),
+#      fn {app, _, _} -> app == :iex end
+#    ) do
 IEx.break!(SoggyWaffle.WeatherAPI.ResponseParser, :parse_response, 1)
+# end
